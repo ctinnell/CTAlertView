@@ -13,7 +13,8 @@
 		842907DC1C77280300306DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842907DB1C77280300306DBB /* Assets.xcassets */; };
 		842907DF1C77280300306DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842907DD1C77280300306DBB /* LaunchScreen.storyboard */; };
 		845A70AD1C78932F0071C5AE /* CTAlertConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A70AC1C78932F0071C5AE /* CTAlertConfiguration.swift */; };
-		845A70AF1C7899010071C5AE /* CTAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A70AE1C7899010071C5AE /* CTAlertController.swift */; };
+		845A70B11C789ADB0071C5AE /* CTAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A70B01C789ADB0071C5AE /* CTAlertView.swift */; };
+		845A70B31C789B320071C5AE /* CTAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A70B21C789B320071C5AE /* CTAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		842907DE1C77280300306DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842907E01C77280300306DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845A70AC1C78932F0071C5AE /* CTAlertConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTAlertConfiguration.swift; path = Alert/CTAlertConfiguration.swift; sourceTree = "<group>"; };
-		845A70AE1C7899010071C5AE /* CTAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTAlertController.swift; sourceTree = "<group>"; };
+		845A70B01C789ADB0071C5AE /* CTAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTAlertView.swift; path = Alert/CTAlertView.swift; sourceTree = "<group>"; };
+		845A70B21C789B320071C5AE /* CTAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTAlertController.swift; path = Alert/CTAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				845A70AC1C78932F0071C5AE /* CTAlertConfiguration.swift */,
-				845A70AE1C7899010071C5AE /* CTAlertController.swift */,
+				845A70B21C789B320071C5AE /* CTAlertController.swift */,
+				845A70B01C789ADB0071C5AE /* CTAlertView.swift */,
 			);
 			name = Alert;
 			sourceTree = "<group>";
@@ -151,7 +154,8 @@
 			files = (
 				845A70AD1C78932F0071C5AE /* CTAlertConfiguration.swift in Sources */,
 				842907D71C77280300306DBB /* ViewController.swift in Sources */,
-				845A70AF1C7899010071C5AE /* CTAlertController.swift in Sources */,
+				845A70B11C789ADB0071C5AE /* CTAlertView.swift in Sources */,
+				845A70B31C789B320071C5AE /* CTAlertController.swift in Sources */,
 				842907D51C77280300306DBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
