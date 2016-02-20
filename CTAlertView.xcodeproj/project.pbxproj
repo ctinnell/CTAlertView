@@ -12,6 +12,7 @@
 		842907DA1C77280300306DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842907D81C77280300306DBB /* Main.storyboard */; };
 		842907DC1C77280300306DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842907DB1C77280300306DBB /* Assets.xcassets */; };
 		842907DF1C77280300306DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842907DD1C77280300306DBB /* LaunchScreen.storyboard */; };
+		845A70AD1C78932F0071C5AE /* CTAlertViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A70AC1C78932F0071C5AE /* CTAlertViewConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		842907DB1C77280300306DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842907DE1C77280300306DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842907E01C77280300306DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845A70AC1C78932F0071C5AE /* CTAlertViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTAlertViewConfiguration.swift; path = Alert/CTAlertViewConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		842907D31C77280300306DBB /* CTAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				845A70AB1C7892F90071C5AE /* Alert */,
 				842907D41C77280300306DBB /* AppDelegate.swift */,
 				842907D61C77280300306DBB /* ViewController.swift */,
 				842907D81C77280300306DBB /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				842907E01C77280300306DBB /* Info.plist */,
 			);
 			path = CTAlertView;
+			sourceTree = "<group>";
+		};
+		845A70AB1C7892F90071C5AE /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				845A70AC1C78932F0071C5AE /* CTAlertViewConfiguration.swift */,
+			);
+			name = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845A70AD1C78932F0071C5AE /* CTAlertViewConfiguration.swift in Sources */,
 				842907D71C77280300306DBB /* ViewController.swift in Sources */,
 				842907D51C77280300306DBB /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +296,7 @@
 				842907E51C77280300306DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
