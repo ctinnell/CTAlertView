@@ -8,12 +8,18 @@
 
 import UIKit
 
-class CTAlertController: NSObject {
-    let configuration: CTAlertConfiguration
-    
-    init(configuration: CTAlertConfiguration) {
-        self.configuration = configuration
-    }
+public enum AlertType {
+    case Banner
+    case PopUp
+}
 
+public enum AlertPosition {
+    case Top
+    case Bottom
+    case Center
+}
+
+class CTAlertController: NSObject {
+    
     
 }

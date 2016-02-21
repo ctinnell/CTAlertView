@@ -9,7 +9,9 @@
 import UIKit
 
 class CTAlertView: UIView {
-
+    var type = AlertType.Banner
+    var position = AlertPosition.Top
+    
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
